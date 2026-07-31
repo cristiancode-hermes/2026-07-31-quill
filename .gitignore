@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+*.log
+apps/api/data/
+*.db
+.DS_Store
