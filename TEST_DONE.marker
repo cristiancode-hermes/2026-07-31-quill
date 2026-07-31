@@ -1,0 +1,7 @@
+QA testing complete for 2026-07-31
+Project: quill
+Build: ✅ API (tsc, dist/main.js) + Web (ng build, dist/quill-web/browser)
+Tests: 25/25 passing (25 assertions) + full API smoke test PASSED
+New tests: 0 added (existing coverage adequate)
+Issues: 1 minor (NG8113 unused imports, cosmetic) — smoke-test script bug fixed
+Published: ✅ Caddy (quill.proyectos.cristiancode.dev), ✅ Portfolio (es.ts+en.ts+pt.ts, id 132), ✅ Landing (Core), ✅ Excel (Row 68)
