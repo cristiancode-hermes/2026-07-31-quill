@@ -1,6 +1,5 @@
 import { Component, inject, signal } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
-import { DatePipe } from '@angular/common';
+import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { StoryService } from '../../services/story.service';
 import { StoryCard } from '../../shared/story-card/story-card';
@@ -11,7 +10,7 @@ import type { Story } from '../../models/models';
 @Component({
   selector: 'app-story-list',
   standalone: true,
-  imports: [RouterLink, DatePipe, FormsModule, StoryCard, EmptyState, Modal],
+  imports: [FormsModule, StoryCard, EmptyState, Modal],
   template: `
     <div class="container page">
       <div class="page-header">

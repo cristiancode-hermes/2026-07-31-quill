@@ -1,5 +1,5 @@
 // Smoke test for Quill API (local dev server on :3111)
-const BASE = 'http://localhost:3111/api';
+const BASE = process.env.API_BASE || 'http://localhost:3111/api';
 
 async function main() {
   const login = await fetch(`${BASE}/auth/login`, {
